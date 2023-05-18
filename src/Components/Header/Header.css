@@ -13,6 +13,10 @@
   animation: shadowAni 3000ms infinite;
 }
 
+.btndv{
+  width: 60% ;
+}
+
 .contactBtn {
   /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
@@ -24,6 +28,7 @@
   color: rgb(255, 255, 255);
   font-family: Poppins;
   font-weight: 400;
+  width: 110%;
   font-size: 16px !important;
   padding: 13px 18px;
   border: 0;
