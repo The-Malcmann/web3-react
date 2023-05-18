@@ -140,8 +140,9 @@ const Info = async () => {
       setCIP((tokenBal / decimal).toFixed(5));
 
 
-      var stakers1 = await instance.methods.balanceOf(account).call();
-      setStakers1(stakers1 / decimal );
+      const stakedLadderBal = await instance.methods.balanceOf(account).call();
+      let stakers1 = await instance.methods.convertToAssets(stakedLadderBal).call();
+      setStakers1(Number(web3.utils.fromWei(stakers1)).toFixed(2));
 
       var stake1 = await instance.methods.maxDeposit(account).call();
       setStake1((stake1 / decimal).toFixed(2));
@@ -299,10 +300,6 @@ const stake = async () => {
                           <div className="d-flex justify-content-between pb-2">
                             <h5>My Staked </h5>
                             <span>{stakers1}</span>
-                          </div>
-                          <div className="d-flex justify-content-between pb-2">
-                            <h5>Max Deposit </h5>
-                            <span>{stake1}</span>
                           </div>
                           <div className="d-flex justify-content-between pb-2 border-bottom border-secondary">
                             <h5>Max Withdraw </h5>
