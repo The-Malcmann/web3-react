@@ -67,10 +67,10 @@ function HeaderBar() {
 
           <div className="btndv" style={{ display: "flex", flexDirection: "row", justifyContent: "right", gap: "4%" }} >
             <div>
-              <a href="https://linktr.ee/laddertoken"> <button className="contactBtn">Links</button> </a>
+              <a href="https://linktr.ee/laddertoken" target="_blank"> <button className="contactBtn">Links</button> </a>
             </div>
             <div>
-              <a href="https://traderjoexyz.com/arbitrum/trade?outputCurrency=0x6560c5AE3332bD6A036F48239a1D90BA3f51872a"> <button className="contactBtn">Swap</button> </a>
+              <a href="https://traderjoexyz.com/arbitrum/trade?outputCurrency=0x6560c5AE3332bD6A036F48239a1D90BA3f51872a" target="_blank"> <button className="contactBtn">Swap</button> </a>
             </div>
             <div>
               <button onClick={connectWallet} className="contactBtn">{wallet}</button>
