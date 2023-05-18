@@ -1,0 +1,35 @@
+@keyframes shadowAni {
+  0% {
+    box-shadow: 0 0 5px #a57939;
+  }
+  50% {
+    box-shadow: 0 0 25px #a57939;
+  }
+  100% {
+    box-shadow: 0 0 5px #a57939;
+  }
+}
+.cardShadow {
+  animation: shadowAni 3000ms infinite;
+}
+
+.contactBtn {
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
+  background: #a57939 !important;
+  border-radius: 30px;
+  
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px !important;
+  padding: 13px 18px;
+  border: 0;
+  font-weight: bold;
+}
+.cardShadow {
+  -webkit-animation: shadowAni 3s infinite;
+  animation: shadowAni 3s infinite;
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Nunito",sans-serif !important;
+    
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at center top, rgb(247, 243, 244), rgb(243, 237, 239)) 0% 0% / cover fixed !important;
+  /* background: linear-gradient(180deg, rgba(12, 7, 19, 0.6) 0%, rgba(12, 7, 19, 0) 100%) !important; */
+  /* background: radial-gradient(circle at center top, rgb(247, 243, 244), rgb(243, 237, 239)) ; */
+  /* background: linear-gradient(138.01deg, #19112e 6.64%, #060612 103.21% ) !important; */
+/* filter: blur(282px) ; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("https://arbibaby.space/wp-content/uploads/2023/03/Copy-of-blue-space.jpg"); */
+    /* background: linear-gradient(180deg, rgba(12, 7, 19, 0.6) 0%, rgba(12, 7, 19, 0) 100%) !important; */
+  /* background: linear-gradient(138.01deg, #6E44D9 6.64%, #1876C5 103.21%); */
+    background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  font-family: "poppins", sans-serif !important;
+  font-weight: 300 !important;
+}
+
